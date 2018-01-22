@@ -196,15 +196,17 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Comment.cs" />
     <Compile Include="Models\Compass.cs" />
-    <Compile Include="Models\Donate.cs" />
-    <Compile Include="Models\Dua.cs" />
     <Compile Include="Models\Event.cs" />
     <Compile Include="Models\Hajj.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\Image.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\Quran.cs" />
     <Compile Include="Models\Ramadan.cs" />
+    <Compile Include="Models\Stage.cs" />
+    <Compile Include="Models\StageComment.cs" />
     <Compile Include="Models\TimesForPrayer.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
