@@ -7,5 +7,9 @@ namespace PrayerTimes.Models
 {
     public class Image
     {
+        public int Id { get; set; }
+        public string Name { get; set; }
+
+        public Event Event { get; set; }
     }
 }

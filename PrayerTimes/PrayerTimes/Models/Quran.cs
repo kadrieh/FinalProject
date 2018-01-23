@@ -7,5 +7,7 @@ namespace PrayerTimes.Models
 {
     public class Quran
     {
+        public int Id { get; set; }
+        public string Verse { get; set; }
     }
 }
