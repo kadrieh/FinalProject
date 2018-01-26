@@ -13,6 +13,10 @@ namespace PrayerTimes.Controllers
             return View();
         }
 
+        public ActionResult Prayer()
+        {
+            return View();
+        }
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";

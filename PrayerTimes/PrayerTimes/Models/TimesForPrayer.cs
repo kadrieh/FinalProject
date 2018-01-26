@@ -9,10 +9,18 @@ namespace PrayerTimes.Models
     public class TimesForPrayer
     {
         public int Id { get; set; }
-        public string Name { get; set; }
+
+        [Display(Name = "Prayer Name")]
+        public string PrayerName { get; set; }
+
+        [Display(Name = "Prayer Time")]
         public double PrayerTime { get; set; }
+
         //public DateTime CurrentDate { get; set; }
+        [Display(Name = "Time")]
         public DateTime _currentTime { get; set; }
+
+        [Display(Name ="Date")]
         private DateTime _returnDate = DateTime.MinValue;
 
         public string Date

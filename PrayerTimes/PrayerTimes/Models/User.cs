@@ -12,5 +12,7 @@ namespace PrayerTimes.Models
         public string DOB { get; set; }
         public string Phone { get; set; }
         public List<Hajj> Hajjs { get; set; }
+
+        public List<Dua> Duas { get; set; }
     }
 }
