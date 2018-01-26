@@ -7,5 +7,10 @@ namespace PrayerTimes.Models
 {
     public class Comment
     {
+        public int Id { get; set; }
+        public string  userComment { get; set; }
+
+        public List<Stage> Stages { get; set; }
+
     }
 }
